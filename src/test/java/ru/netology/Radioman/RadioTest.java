@@ -16,7 +16,7 @@ class RadioTest {
 
     @Test
     public void prevChannelFromMin() {
-        //предыдущий канал с минимального значнеия
+        //предыдущий канал с минимального значения
         Radio station = new Radio();
         station.setCurrentChannel(0);
         station.prevChannel();
